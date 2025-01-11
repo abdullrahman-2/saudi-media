@@ -51,7 +51,7 @@ function Landing() {
         initial="hidden"
         whileInView="show"
       >
-        <div className="flex flex-col gap-2 justify-center items-center lg:mt-32 mt-10 text-white font-bold text-6xl sm:text-7xl ">
+        <div className="flex flex-col gap-2 justify-center items-center lg:mt-32 mt-10 text-white font-bold text-5xl sm:text-7xl ">
           <span>الإعلام</span>
           <span>في عالم يتشكل</span>
         </div>
@@ -89,17 +89,17 @@ function Landing() {
         variants={SlideLeft(0.5)}
         initial="hidden"
         whileInView="show"
-        className="w-full lg:mt-10 grid grid-cols-2 md:grid-cols-3 gap-5 "
+        className="w-full lg:mt-10 grid grid-cols-2 md:grid-cols-3 md:gap-5 gap-3 "
       >
-        <div className="order-2 md:order-1 col-span-1 mx-auto bg-greeen bg-opacity-50 text-white text-xl font-[18px] flex flex-col rounded-xl justify-center items-center gap-2 p-7 h-[140px] sm:w-[250px] w-[200px]">
+        <div className="order-2 md:order-1 col-span-1 mx-auto bg-greeen bg-opacity-50 text-white md:text-xl font-[18px] flex flex-col rounded-xl justify-center items-center gap-2 p-7  sm:w-[250px] w-[150px]">
           <LocationOnIcon fontSize="large" className="text-green-400" />
           <span>19 - 21 فبراير,</span>
           <span>2025</span>
         </div>
-        <div className="order-1 md:order-2 col-span-2 md:col-span-1 mx-auto bg-greeen bg-opacity-50 flex flex-col rounded-xl justify-center items-center gap-2 p-7 h-[140px] w-[250px]">
+        <div className="order-1 md:order-2 col-span-2 md:col-span-1 mx-auto bg-greeen bg-opacity-50 flex flex-col rounded-xl justify-center items-center gap-2 p-7  md:w-[250px] w-[150px]">
           <Image src={logo} alt="Logo" className="w-[150px] h-[65px]" />
         </div>
-        <div className="order-3 md:order-3 col-span-1 mx-auto bg-greeen bg-opacity-50 text-white md:text-xl md:font-[18px] flex flex-col rounded-xl justify-center items-center gap-2 p-3 h-[140px] sm:w-[250px]  w-[200px]">
+        <div className="order-3 md:order-3 col-span-1 mx-auto bg-greeen bg-opacity-50 text-white md:text-xl md:font-[18px] flex flex-col rounded-xl justify-center items-center gap-2 p-3  sm:w-[250px]  w-[150px]">
           <AccessTimeOutlinedIcon fontSize="large" className="text-green-400" />
           <span>الرياض,</span>
           <span> المملكة العربية السعودية </span>
@@ -109,4 +109,4 @@ function Landing() {
   );
 }
 
-export default Landing;
+export default Landing;

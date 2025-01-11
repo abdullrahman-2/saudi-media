@@ -16,13 +16,13 @@ whileInView={{ height: "410px",transition: { duration: 1.2 }}} className="w-[295
    
     </div>
 
-    <div id="right" className=" mt-20 text-white w-[40rem]   order-1	">
+    <div id="right" className=" mt-20 text-white w-[40rem]    order-1	">
   <article
-     className="  text-white relative  flex flex-col items-end text-right">    
+     className="  text-white relative  flex flex-col items-center md:items-end text-center md:text-right">    
           <h1 className="text-[40px] font-bold  ">كن جزءًا من التحول الإعلامي!</h1>
           <h1 className="text-[30px] font-bold  ">كن جزءًا من مستقبل الإعلام في المملكة والعالم</h1>
           <p className=" text-[20px] leading-relaxed">نضم إلينا في هذا الحدث الفريد الذي يجمع بين أبرز الخبراء والمتخصصين في المجال الإعلامي</p>
-          <button className="bg-[#00695f] w-50 ... text-white font-semibold text-lg border-none rounded-3xl h-16 w-64 order-2 sm:order-1">اشترك الآن</button>
+          <button className="bg-[#00695f] w-50 ... text-white font-semibold text-lg border-none rounded-3xl h-16 w-64 order-2 sm:order-1 mt-3">اشترك الآن</button>
 
         </article>
       

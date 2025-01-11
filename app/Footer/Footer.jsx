@@ -10,13 +10,13 @@ export default function Footer() {
   return (
     <>
        <div   className="bg-[rgb(0,61,54)]">
-        <motion.div initial={{ transform: "translateX(-430px)"}}
+        <motion.div initial={{ transform: "translateX(-30px)"}}
 whileInView={{ transform: "translateX(0px)",transition: { duration: 1.2 }}} style={{gap:"30%"}} className=" flex   lg:justify-end justify-center   items-center text-center mb-20 p-20 flex-wrap    "> 
           <h2 className="text-white font-bold order-2 w-96 ... text-2xl lg:order-1">انضم إلى قائمتنا البريدية لتصلك أحدث الأخبار الحصرية من المنتدى السعودي للإعلام</h2>
           <img className=" w-120 lg:order-2 order-1" src="icons/logoAr.svg" alt="Logo" />
         </motion.div>
   
-        <motion.div  initial={{ transform: "translateX(-430px)"}}
+        <motion.div  initial={{ transform: "translateX(-130px)"}}
 whileInView={{ transform: "translateX(0px)",transition: { duration: 1.2 }}}
    className=" flex justify-center items-center gap-4 relative pb-4  flex-wrap">
           <button className="bg-[#00695f] w-96  sm:w-44  text-white font-semibold text-lg border-none rounded-3xl h-16  order-2 sm:order-1">اشترك الآن</button>

@@ -14,8 +14,8 @@ whileInView={{ transform: "translateY(0px)",transition: { duration: 1.2 }}}>
    <div className="flex justify-around flex-wrap	" >
    
     <div   className="w-96 text-white ">
-     <img className="rounded-xl" src="imgs/image_3.jpg"/>
-    <div className=" bg-green-600 px-11 w-80   h-auto -translate-y-1/2 sm:translate-x-10  translate-x-0 py-5 flex text-center items-center justify-center flex-col gap-4 rounded-3xl">
+     <img className="rounded-xl " src="imgs/image_3.jpg"/>
+    <div className=" bg-green-600 px-11 w-80 m-auto  h-auto -translate-y-1/2  py-5 flex text-center items-center justify-center flex-col gap-4 rounded-3xl">
    <h5 className="block">اكتساب معرفة</h5><p class="text-sm text-center">
    شارك في جلسات حوارية وورش عمل يقودها نخبة من المتحدثين والخبراء العالميين. احصل على رؤى جديدة وأفكار مبتكرة تعزز من مهاراتك ومعرفتك.    </p>
     </div>
@@ -23,7 +23,7 @@ whileInView={{ transform: "translateY(0px)",transition: { duration: 1.2 }}}>
 
       <div className="w-96 text-white">
      <img className="rounded-xl" src="imgs/image_2.jpg"/>
-    <div className="bg-green-600 px-11 w-80   h-auto -translate-y-1/2 sm:translate-x-10  translate-x-0 py-5 flex text-center items-center justify-center flex-col gap-4 rounded-3xl">
+    <div className="bg-green-600 px-11 w-80 m-auto   h-auto -translate-y-1/2  py-5 flex text-center items-center justify-center flex-col gap-4 rounded-3xl">
    <h5 className="block">تواصل مع رواد الإعلام</h5><p class="text-sm text-center">
 نضم إلى قادة الإعلام ورواد الأعمال الذين يقودون التحول الرقمي في القطاع. اغتنم الفرصة للتواصل مع الخبراء وبناء علاقات مهنية قيمة.    </p>
     </div>
@@ -31,7 +31,7 @@ whileInView={{ transform: "translateY(0px)",transition: { duration: 1.2 }}}>
 
       <div className="w-96 text-white">
      <img className="rounded-xl" src="imgs/image_1.jpg"/>
-    <div className="bg-green-600 px-11 w-80   h-auto -translate-y-1/2 sm:translate-x-10  translate-x-0 py-5 flex text-center items-center justify-center flex-col gap-4 rounded-3xl">
+    <div className="bg-green-600 px-11 w-80 m-auto  h-auto -translate-y-1/2  py-5 flex text-center items-center justify-center flex-col gap-4 rounded-3xl">
    <h5 className="block">استكشاف التكنولوجيا الحديثة</h5><p class="text-sm text-center">
     اكتشف آخر ما توصلت إليه التكنولوجيا الإعلامية وأحدث الابتكارات الرقمية. كن في طليعة التطورات التي تعيد تشكيل مستقبل الإعلام.</p>
     </div>
