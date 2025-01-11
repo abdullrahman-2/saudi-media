@@ -1,0 +1,8 @@
+
+@media screen and (max-width:550px)  {
+  #navbar-container {
+   /* ترتيب العناصر عمودياً */
+    align-items: flex-end; /* محاذاة العناصر إلى بداية الحاوية */
+}
+  
+}
