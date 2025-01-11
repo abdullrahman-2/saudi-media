@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-import pic1 from "../../public/imgs/welcome_image6181.jpeg";
-import pic2 from "../../public/forms/swqq.PNG";
-import pic3 from "../../public/forms/arrows.PNG";
+
 import { motion } from "framer-motion";
 
 function Sec1() {
@@ -49,7 +46,7 @@ function Sec1() {
         whileInView="show"
         className=" absolute top-24 md:right-0 -right-[550px] rounded-3xl overflow-hidden w-[650px] h-[500px]"
       >
-        <Image src={pic1} alt="Logo" className="  object-cover  " />
+        <img src="imgs/welcome_image6181.jpeg" alt="Logo" className="  object-cover  " />
       </motion.div>
       <motion.div
         variants={SlideUp(0.5)}
@@ -57,7 +54,7 @@ function Sec1() {
         whileInView="show"
         className=" absolute w-24  md:top-72 top:40 left-0"
       >
-        <Image src={pic2} alt="Logo" />
+        <img src="forms/arrows.PNG" alt="Logo" />
       </motion.div>
       <motion.div
         variants={SlideUp(0.5)}
@@ -65,7 +62,7 @@ function Sec1() {
         whileInView="show"
         className="absolute w-44  top-96 left-32"
       >
-        <Image src={pic3} alt="Logo" />
+        <img src="forms/arrows.PNG" alt="Logo" />
       </motion.div>
       <motion.div
         variants={SlideUp(0.5)}
